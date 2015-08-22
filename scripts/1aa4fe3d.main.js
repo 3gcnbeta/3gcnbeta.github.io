@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$(".links > p.lists > a > img").each(function(){$(this).attr("data")&&$(this).attr("src",$(this).attr("data"))}),$(".links > p.lists > a").click(function(){$(this).attr("data")&&$(this).attr("src",$(this).attr("data"))})});
